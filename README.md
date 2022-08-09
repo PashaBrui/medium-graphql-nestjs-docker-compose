@@ -75,7 +75,7 @@ subscription is done using `graphql-subscriptions`, 2 events can be subscribed:
   
  1. add `.env` file with fallowing values:   
     `SERVER_PORT=3000`             
-    `MONGODB_URI=mongodb://localhost:27017/medium`   
+    `MONGODB_URI=mongodb://root:example@mongo:27017/`   
     `DEBUG=true`  
     `SECRET_KEY=secret-key`
     `UPLOAD_PATH=./static`

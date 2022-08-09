@@ -19,13 +19,13 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config test/jest-e2e.json",
-    "postinstall": "patch-package && rimraf node_modules/@types/mongoose"
+    "postinstall2": "patch-package && rimraf node_modules/@types/mongoose"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
-    "@nestjs/graphql": "^7.10.6",
+    "@nestjs/graphql": "7.11",
     "@nestjs/jwt": "^7.2.0",
     "@nestjs/mongoose": "^7.2.4",
     "@nestjs/passport": "^7.1.5",
@@ -40,7 +40,7 @@
     "graphql-subscriptions": "^1.2.1",
     "graphql-tools": "^7.0.5",
     "graphql-upload": "^12.0.0",
-    "mongoose": "^5.12.10",
+    "mongoose": "^5.13.14",
     "mongoose-paginate-v2": "^1.3.18",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
